@@ -5,6 +5,6 @@ app.config['DEBUG'] = True
 
 @app.route("/")
 def index():
-    return "Hello, World!"
+    return "<p>Hello, World!</p><p>Hello, World, again!</p>"
 
 app.run()
